@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 1px;
+    perspective-origin: 0 0;
+    transform-style: preserve-3d;
+    z-index:1;
+}
+.ozon__content {
+    background-image: url("фон.jpg");
+ background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ozon__1 {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
